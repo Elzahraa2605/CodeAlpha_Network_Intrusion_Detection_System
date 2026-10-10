@@ -24,7 +24,7 @@ Inspecting active network interfaces to find the default adapter name (`ens33`):
 
 ### 2. Custom Snort Rule Configuration
 Defining the custom ICMP detection rule inside `/etc/snort/rules/local.rules`:
-![Snort Rule Configuration](path/to/2_local_rules.png)
+![Snort Rule Configuration](2_local_rules.png)
 
 ### 3. Snort Listening Mode (Pre-Attack)
 Snort running actively in the background, listening on interface `ens33` without triggering false alerts prior to traffic generation:
