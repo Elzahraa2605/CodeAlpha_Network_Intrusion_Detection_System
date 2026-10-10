@@ -57,3 +57,6 @@ Executing `ping 8.8.8.8` from another terminal session and observing instant rea
     ```bash
     sudo snort -A console  -c /etc/snort/snort.conf -i "Your network int"
     
+4.**Test Rule Trigger (In a separate terminal)**
+ ```bash
+ping 8.8.8.8
