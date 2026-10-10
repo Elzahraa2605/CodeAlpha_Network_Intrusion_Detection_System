@@ -20,7 +20,7 @@ The main objective of this project is to configure an intrusion detection enviro
 
 ### 1. Identifying Network Interface
 Inspecting active network interfaces to find the default adapter name (`ens33`):
-![Network Interface Identification](path/to/1_network_interface.png)
+![Network Interface Identification](1_network_interface.png)
 
 ### 2. Custom Snort Rule Configuration
 Defining the custom ICMP detection rule inside `/etc/snort/rules/local.rules`:
