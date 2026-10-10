@@ -49,3 +49,6 @@ Executing `ping 8.8.8.8` from another terminal session and observing instant rea
 1. **Check Network Interface:**
    ```bash
    ip a
+2. **Define Custom Rule (/etc/snort/rules/local.rules):**
+    ```bash
+   sudo nano /etc/snort/rules/local.rules
