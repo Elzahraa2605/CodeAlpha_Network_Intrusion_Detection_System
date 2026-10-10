@@ -33,7 +33,7 @@ Snort running actively in the background, listening on interface `ens33` without
 
 ### 4. Real-time Intrusion Alert (Post-Ping)
 Executing `ping 8.8.8.8` from another terminal session and observing instant real-time alerts in the Snort console:
-![Snort Alert Triggered](path/to/4_snort_alert.png)
+<img src="4_snort_alert.png" alt="Snort Alert Triggered" width="45%" /> <img src="4.0_snort_alert.png" alt="Snort Alert Triggered" width="45%" />
 
 ---
 
