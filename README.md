@@ -55,5 +55,5 @@ Executing `ping 8.8.8.8` from another terminal session and observing instant rea
     alert icmp any any -> any any (msg:"ICMP ping Detected - potential probe"; sid:1000001; rev:1;)
 3. **Run Snort for Monitoring**
     ```bash
-    sudo snort -A console -q -c /etc/snort/snort.conf -i your name card-net
+    sudo snort -A console  -c /etc/snort/snort.conf -i "Your network int"
     
