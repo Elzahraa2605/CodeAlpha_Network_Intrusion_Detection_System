@@ -28,7 +28,8 @@ Defining the custom ICMP detection rule inside `/etc/snort/rules/local.rules`:
 
 ### 3. Snort Listening Mode (Pre-Attack)
 Snort running actively in the background, listening on interface `ens33` without triggering false alerts prior to traffic generation:
-![Snort Idle State](path/to/3_snort_idle.png)
+![Snort Idle State](3_snort_idle.png)
+![Snort Idle State](3.0_snort_idle.png)
 
 ### 4. Real-time Intrusion Alert (Post-Ping)
 Executing `ping 8.8.8.8` from another terminal session and observing instant real-time alerts in the Snort console:
