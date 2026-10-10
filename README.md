@@ -35,15 +35,6 @@ Snort running actively in the background, listening on interface `ens33` without
 Executing `ping 8.8.8.8` from another terminal session and observing instant real-time alerts in the Snort console:
 <img src="4_snort_alert.png" alt="Snort Alert Triggered" width="45%" /> <img src="4.0_snort_alert.png" alt="Snort Alert Triggered" width="45%" />
 
----
-
-## 🛠️ Tools & Technologies Used
-- **Snort:** Open-source Network Intrusion Detection System (NIDS)[cite: 6].
-- **Ubuntu Linux:** Operating system environment and CLI.
-- **Git & GitHub:** Version control and project documentation[cite: 6].
-
----
-
 ## ⚙️ Configuration & Execution
 
 1. **Check Network Interface:**
