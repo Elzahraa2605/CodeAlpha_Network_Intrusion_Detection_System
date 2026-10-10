@@ -52,3 +52,4 @@ Executing `ping 8.8.8.8` from another terminal session and observing instant rea
 2. **Define Custom Rule (/etc/snort/rules/local.rules):**
     ```bash
    sudo nano /etc/snort/rules/local.rules
+    alert icmp any any -> any any (msg:"ICMP ping Detected - potential probe"; sid:1000001; rev:1;)
